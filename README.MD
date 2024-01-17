@@ -15,15 +15,15 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
   <summary>Kubernetes öyrənirik | E0 - Kubernetes nədir? Nə zaman kubernetes istifadə edək? Necə öyrənək?
 </summary>
 
-  1. Movzu başlıqları
+  +  Movzu başlıqları
         * Kubernetes nədir
         * Nə zaman istifadə edək
         * Necə öyrənək
         * Learning environment
             - minikube/kind
             - Lens IDE
-   2. Youtube video - https://www.youtube.com/live/Djyw44t6-gs?si=2lRQsiW9_T7KysEt
-   3. Tarix 14 Yanvar, 2024 saat 18:00 (Bakı)
+  +  Youtube video - https://www.youtube.com/live/Djyw44t6-gs?si=2lRQsiW9_T7KysEt
+  +  Tarix 14 Yanvar, 2024 saat 18:00 (Bakı)
 
 
 </details>
@@ -31,7 +31,7 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
 <details>
   <summary>Kubernetes öyrənirik | E1 - "Computer networking"-i yada salaq </summary>
 
-  1. Movzu başlıqları
+  +  Movzu başlıqları
         * Layer 4 and Layer 7 networks
         * TCP/IP
         * RPC
@@ -41,8 +41,8 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
         * SSL/TLS: One way & Mutual TLS
         * Overlay networking
         * eBPF (Cilium)
-   2. Youtube video - https://www.youtube.com/live/jWHcfpZM4Fw?si=9U_YvW26DiKTAwy_
-   3. Tarix 18 Yanvar, 2024 saat 20:40 (Bakı)
-   4. Qonaq: Gökhan Geyik
+   +  Youtube video - https://www.youtube.com/live/jWHcfpZM4Fw?si=9U_YvW26DiKTAwy_
+   +  Tarix 18 Yanvar, 2024 saat 20:40 (Bakı)
+   +  Qonaq: Gökhan Geyik
 
 </details>
