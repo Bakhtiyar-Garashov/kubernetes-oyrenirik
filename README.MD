@@ -41,7 +41,8 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
         * SSL/TLS: One way & Mutual TLS
         * Overlay networking
         * eBPF (Cilium)
-   +  Youtube video - https://www.youtube.com/live/jWHcfpZM4Fw?si=9U_YvW26DiKTAwy_
+   +  Youtube video (1-ci hissə) - https://youtu.be/uLvzykBG3xQ?si=3vW7wJCOiPD8CIbq
+   +  Youtube video (2-ci hissə) - https://youtu.be/G6ha1X9tGB4?si=lb56Fec5lHSD18Co
    +  Tarix 18 Yanvar, 2024 saat 20:40 (Bakı)
    +  Qonaq: Gökhan Geyik
    +  Resurslar:
