@@ -44,5 +44,9 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
    +  Youtube video - https://www.youtube.com/live/jWHcfpZM4Fw?si=9U_YvW26DiKTAwy_
    +  Tarix 18 Yanvar, 2024 saat 20:40 (Bakı)
    +  Qonaq: Gökhan Geyik
+   +  Resurslar:
+        - [Computer Neworking - A top-down approach](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
+        - [Stanford’s Introduction to Computer Networking course](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS)
+        - [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
 
 </details>
