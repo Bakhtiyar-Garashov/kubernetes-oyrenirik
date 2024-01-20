@@ -15,7 +15,7 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
   <summary>Kubernetes öyrənirik | E0 - Kubernetes nədir? Nə zaman kubernetes istifadə edək? Necə öyrənək?
 </summary>
 
-  +  Movzu başlıqları
+  +  Mövzu başlıqları
         * Kubernetes nədir
         * Nə zaman istifadə edək
         * Necə öyrənək
@@ -31,7 +31,7 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
 <details>
   <summary>Kubernetes öyrənirik | E1 - "Computer networking"-i yada salaq </summary>
 
-  +  Movzu başlıqları
+  +  Mövzu başlıqları
         * Layer 4 and Layer 7 networks
         * TCP/IP
         * RPC
@@ -50,5 +50,30 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
         - [Stanford’s Introduction to Computer Networking course](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS)
         - [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
         - [DNS Toys](https://www.dns.toys/)
+
+</details>
+
+<details>
+  <summary>Kubernetes öyrənirik | E2 - "Containers" movzusuna giriş </summary>
+
+  +  Mövzu başlıqları
+      * "Container" nədir ?
+      * Nə üçün mövcuddur ?
+      * "Virtualization" və "Sandbox"-ing, fərqliliklər
+      * Üstünlükləri
+      * "OCI" (not to be confused with Oracle Cloud Infrastructure :D) 
+      * "Container runtimes"
+      * Container processes" (init process, pid = 1)
+      * "Container layers"
+      * "Containerization"-ı mümkün eden Linux elementleri
+        * "Cgroups"
+        * "Namespaces"
+        * "Chroot"
+        * "Root filesystem"
+        * "Filesystem yaradilmasi (bootstrap) (numune: deboostrap tool)"
+
+   +  Youtube video 
+   +  Tarix  Yanvar, 2024 saat  (Bakı)
+   +  Resurslar:
 
 </details>
