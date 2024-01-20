@@ -22,7 +22,7 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
         * Learning environment
             - minikube/kind
             - Lens IDE
-  +  Youtube video - https://www.youtube.com/live/Djyw44t6-gs?si=2lRQsiW9_T7KysEt
+  +  Youtube - https://www.youtube.com/live/Djyw44t6-gs?si=2lRQsiW9_T7KysEt
   +  Tarix 14 Yanvar, 2024 saat 18:00 (Bakı)
 
 
@@ -41,8 +41,8 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
         * SSL/TLS: One way & Mutual TLS
         * Overlay networking
         * eBPF (Cilium)
-   +  Youtube video (1-ci hissə) - https://youtu.be/uLvzykBG3xQ?si=3vW7wJCOiPD8CIbq
-   +  Youtube video (2-ci hissə) - https://youtu.be/G6ha1X9tGB4?si=lb56Fec5lHSD18Co
+   +  Youtube (1-ci hissə) - https://youtu.be/uLvzykBG3xQ?si=3vW7wJCOiPD8CIbq
+   +  Youtube (2-ci hissə) - https://youtu.be/G6ha1X9tGB4?si=lb56Fec5lHSD18Co
    +  Tarix 18 Yanvar, 2024 saat 20:40 (Bakı)
    +  Qonaq: Gökhan Geyik
    +  Resurslar:
@@ -54,7 +54,7 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
 </details>
 
 <details>
-  <summary>Kubernetes öyrənirik | E2 - "Containers" movzusuna giriş </summary>
+  <summary>Kubernetes öyrənirik | E2 - "Containers" mövzusuna giriş </summary>
 
   +  Mövzu başlıqları
       * "Container" nədir ?
@@ -66,13 +66,13 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
       * Container processes" (init process, pid = 1)
       * "Container layers"
       * "Containerization"-ı mümkün eden Linux elementleri
-        * "Cgroups"
-        * "Namespaces"
-        * "Chroot"
-        * "Root filesystem"
-        * "Filesystem yaradilmasi (bootstrap) (numune: deboostrap tool)"
+        * Cgroups
+        * Namespaces
+        * Chroot
+        * Root filesystem
+        * Filesystem yaradilmasi (bootstrap) (numune: deboostrap tool)
 
-   +  Youtube video 
+   +  Youtube  
    +  Tarix  Yanvar, 2024 saat  (Bakı)
    +  Resurslar:
 
