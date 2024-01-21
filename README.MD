@@ -64,7 +64,7 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
       * "OCI" (not to be confused with Oracle Cloud Infrastructure :D) 
       * "Container runtimes"
       * Container processes" (init process, pid = 1)
-      * "Container layers"
+      * "Container layers" (docker inspect, dive)
       * "Containerization"-ı mümkün eden Linux elementleri
         * Cgroups
         * Namespaces
