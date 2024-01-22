@@ -12,7 +12,7 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
 ## Bölümlər siyahısı
 
 <details>
-  <summary>Kubernetes öyrənirik | E0 - Kubernetes nədir? Nə zaman kubernetes istifadə edək? Necə öyrənək?
+  <summary> <a name="episode-0">Kubernetes öyrənirik | E0 - Kubernetes nədir? Nə zaman kubernetes istifadə edək? Necə öyrənək?</a>
 </summary>
 
   +  Mövzu başlıqları
@@ -29,7 +29,7 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
 </details>
 
 <details>
-  <summary>Kubernetes öyrənirik | E1 - "Computer networking"-i yada salaq </summary>
+  <summary><a name="episode-1">Kubernetes öyrənirik | E1 - "Computer networking"-i yada salaq </a> </summary>
 
   +  Mövzu başlıqları
         * Layer 4 and Layer 7 networks
@@ -54,7 +54,7 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
 </details>
 
 <details>
-  <summary>Kubernetes öyrənirik | E2 - "Containers" mövzusuna giriş </summary>
+  <summary><a name="episode-2">Kubernetes öyrənirik | E2 - "Containers" mövzusuna giriş </a></summary>
 
   +  Mövzu başlıqları
       * "Container" nədir ?
