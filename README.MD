@@ -60,7 +60,6 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
       * "Container" nədir ?
       * Nə üçün mövcuddur ?
       * "Virtualization" və "Sandbox"-ing, fərqliliklər
-      * Üstünlükləri
       * "OCI" (not to be confused with Oracle Cloud Infrastructure :D) 
       * "Container runtimes"
       * Container processes" (init process, pid = 1)
