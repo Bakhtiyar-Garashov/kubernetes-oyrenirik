@@ -73,7 +73,20 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
         * Filesystem yaradilmasi (bootstrap) (numune: deboostrap tool)
 
    +  Youtube  
-   +  Tarix  Yanvar, 2024 saat  (Bakı)
+   +  Tarix 09 Fevral, 2024 saat 22:00 (Bakı)
+   +  Resurslar:
+
+</details>
+
+
+<details>
+  <summary><a name="episode-3">Kubernetes öyrənirik | E3 - Docker, Podman ve s. </a></summary>
+
+  +  Mövzu başlıqları
+    
+
+   +  Youtube  
+   +  Tarix  Fevral, 2024 saat  (Bakı)
    +  Resurslar:
 
 </details>
