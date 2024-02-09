@@ -71,9 +71,14 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
         * Root filesystem
         * Filesystem yaradilmasi (bootstrap) (numune: deboostrap tool)
 
-   +  Youtube  
+   +  Youtube  https://www.youtube.com/live/G8kakM6mPys?si=VjtCT7VExp2SMjHC
    +  Tarix 09 Fevral, 2024 saat 22:00 (Bakı)
    +  Resurslar:
+        - Dumb-init for container process handling https://engineeringblog.yelp.com/2016/01/dumb-init-an-init-for-docker.html
+        - What is even container ? https://jvns.ca/blog/2016/10/10/what-even-is-a-container/
+        - Containers are chroot with marketing budget https://earthly.dev/blog/chroot/
+        - Container Security (Liz Rice) from O'Reilly https://www.oreilly.com/library/view/container-security/9781492056690/
+        - Open Container Initiative spec https://github.com/opencontainers/runtime-spec/tree/main
 
 </details>
 
