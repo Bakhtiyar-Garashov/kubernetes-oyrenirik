@@ -87,10 +87,15 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
   <summary><a name="episode-3">Kubernetes öyrənirik | E3 - Docker, Podman ve s. </a></summary>
 
   +  Mövzu başlıqları
+      * Docker vs podman architecture, 
+      * Review an example dockerfile, 
+      * Container network 
+      * Compose 
+      * Docker desktop, podman desktop, podman machine 
+      * K8s and container runtimes, CRI-O
     
-
-   +  Youtube  
-   +  Tarix  Fevral, 2024 saat  (Bakı)
+   +  Youtube  https://www.youtube.com/live/nHGat9VA_xg?si=HR4jjmb5hfKwkbCo
+   +  Tarix 16 Fevral, 2024 saat (Bakı)
    +  Resurslar:
 
 </details>
