@@ -96,6 +96,20 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
     
    +  Youtube  https://www.youtube.com/live/nHGat9VA_xg?si=HR4jjmb5hfKwkbCo
    +  Tarix 16 Fevral, 2024 saat (Bakı)
-   +  Resurslar:
+
+</details>
+
+<details>
+  <summary><a name="episode-4">Kubernetes öyrənirik | E4 - K8S giriş: Cluster arxitekturası </a></summary>
+
+  +  Mövzu başlıqları
+      * Kubernetes nədir və nə işə yarayır? 
+      * Kubernetes arxitekturasına giriş 
+      * Control Plane componentləri
+      * Worker node componentləri 
+      * Kubernetes Obyektləri və Resurslarınına giriş
+    
+   +  Youtube 
+   +  Tarix  Mart, 2024 saat (Bakı)
 
 </details>
