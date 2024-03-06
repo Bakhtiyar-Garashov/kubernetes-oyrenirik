@@ -109,7 +109,8 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
       * Worker node componentləri 
       * Kubernetes Obyektləri və Resurslarınına giriş
     
-   +  Youtube 
-   +  Tarix  Mart, 2024 saat (Bakı)
+   +  Youtube https://www.youtube.com/live/atoSUfAdvPc?si=GxO3VZjIvJkTD1FX
+   +  Tarix 6 Mart, 2024 saat 21:30 (Bakı)
+   +  Resurslar: https://kubernetes.io/docs/concepts/architecture/
 
 </details>
