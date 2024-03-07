@@ -114,3 +114,24 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
    +  Resurslar: https://kubernetes.io/docs/concepts/architecture/
 
 </details>
+
+<details>
+  <summary><a name="episode-5">Kubernetes öyrənirik | E5 - Kubernetes Containers & Pods </a></summary>
+
+  +  Mövzu başlıqları
+      * Kubernetes Containers
+      * Runtime class və Container Lifecycle hooks
+      * Kubernetes Pods
+          * Pod Lifecycle
+          * Init & Sidecar Containers
+          * Ephemeral containers
+          * Distruptions & QOS
+          * User Namespaces
+    
+   +  Youtube: TBD
+   +  Tarix: 12 Mart, 2024 saat 20:30 (Bakı)
+   +  Resurslar:
+        - https://kubernetes.io/docs/concepts/containers/
+        - https://kubernetes.io/docs/concepts/workloads/pods/
+
+</details>
