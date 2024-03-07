@@ -128,8 +128,8 @@ Youtube kanalı: [CloudandServerlesscommunityAze](https://www.youtube.com/@Cloud
           * Distruptions & QOS
           * User Namespaces
     
-   +  Youtube TBD
-   +  Tarix 12 Mart, 2024 saat 20:30 (Bakı)
+   +  Youtube: TBD
+   +  Tarix: 12 Mart, 2024 saat 20:30 (Bakı)
    +  Resurslar:
         - https://kubernetes.io/docs/concepts/containers/
         - https://kubernetes.io/docs/concepts/workloads/pods/
