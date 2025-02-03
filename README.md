@@ -1,4 +1,4 @@
-# kubernetes-oyrenirik
+# Kubernetes öyrənirik
 
 <details>
   <summary>Kubernetes öyrənirik | E6: Workload concepts - Pods, Deployments və ReplicaSets (1-ci hissə)
