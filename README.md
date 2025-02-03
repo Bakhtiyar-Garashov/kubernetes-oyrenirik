@@ -11,5 +11,5 @@
 
   [Yayım linki](https://www.youtube.com/live/9pp9qU4cN9M?si=bWkv8nsA3u3Y0Mhl)
 
-  [Demo kontent]()
+  [Demo kontent](./E6-pod-replicaset-deployment-demo-part1)
 </details>
