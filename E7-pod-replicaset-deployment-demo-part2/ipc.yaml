@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ipc-demo
+spec:
+  #  shareProcessNamespace: true
+  containers:
+  - name: server-container
+    image: python
+    command: ["/bin/sh", "-c"]
+    args:
+      - |
+        echo "Server starting on port 8080..."
+        python -m http.server 8080
+  - name: shell
+    image: busybox
+    command: ["sleep", "3600"]

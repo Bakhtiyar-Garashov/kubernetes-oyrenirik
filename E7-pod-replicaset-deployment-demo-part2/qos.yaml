@@ -1,0 +1,43 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: guaranteed-pod
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
+    resources:
+      requests:
+        memory: "128Mi"
+        cpu: "100m"
+      limits:
+        memory: "128Mi"
+        cpu: "100m"
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: burstable-pod
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "50m"
+      limits:
+        memory: "128Mi"
+        cpu: "100m"
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: besteffort-pod
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
