@@ -1,0 +1,162 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: baku-weather-pod
+  labels:
+    app: weather-demo
+spec:
+#  shareProcessNamespace: true # share the process namespace in pod
+
+  initContainers:
+  - name: check-api-availability
+    image: curlimages/curl:latest
+    command:
+      - sh
+      - -c
+      - |
+        if ! curl --silent --fail "https://api.open-meteo.com/v1/forecast"; then
+          echo "API not available. Exiting..."
+          exit 1
+        fi
+        echo "API is available. Proceeding."
+
+  containers:
+  - name: web-server
+    image: nginx
+    ports:
+    - containerPort: 80
+    volumeMounts:
+    - name: shared-data
+      mountPath: /usr/share/nginx/html
+    lifecycle:
+      postStart:
+        exec:
+          command: ["/bin/sh", "-c", "echo Hello from the postStart handler > /usr/share/message"]
+#         command: ["/bin/sh", "-c", "apt-get update && apt-get install procps -y"]
+      preStop:
+        exec:
+          command: ["/bin/sh","-c","nginx -s quit; while killall -0 nginx; do sleep 1; done"]
+    livenessProbe:
+      httpGet:
+        path: /
+        port: 80
+        httpHeaders:
+      initialDelaySeconds: 15
+      periodSeconds: 10
+      failureThreshold: 3
+    readinessProbe:
+      httpGet:
+        path: /index.html
+        port: 80
+      initialDelaySeconds: 15
+      periodSeconds: 10
+      failureThreshold: 3
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+
+  - name: weather-fetcher
+    image: badouralix/curl-jq
+    volumeMounts:
+    - name: shared-data
+      mountPath: /data
+    command:
+    - sh
+    - -c
+    - |
+      while true; do
+        echo '<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+
+            <title>Baku Weather</title>
+            <style>
+                body { 
+                    font-family: Arial, sans-serif; 
+                    background: linear-gradient(135deg, #00b4db, #0083b0);
+                    margin: 0;
+                    min-height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .container {
+                    background: white;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+                    width: 300px;
+                }
+                .weather-item {
+                    text-align: center;
+                    padding: 15px;
+                    margin: 10px 0;
+                    background: #f8f9fa;
+                    border-radius: 8px;
+                }
+                .icon { font-size: 24px; }
+                .value { 
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 10px 0;
+                }
+                .label { color: #666; }
+                .update-time {
+                    text-align: center;
+                    color: #666;
+                    font-size: 12px;
+                    margin-top: 20px;
+                }
+            </style>
+        </head>
+        <body>' > /data/index.html
+        
+        echo '<div class="container"><h2 style="text-align:center">Baku Weather</h2>' >> /data/index.html
+        
+        curl -s "https://api.open-meteo.com/v1/forecast?latitude=40.4093&longitude=49.8671&current=temperature_2m,wind_speed_10m,relative_humidity_2m&timezone=Asia%2FBaku" | \
+        jq -r '.current | "<div class=\"weather-item\">
+            <div class=\"icon\">🌡️</div>
+            <div class=\"value\">\(.temperature_2m)°C</div>
+            <div class=\"label\">Temperature</div>
+        </div>
+        <div class=\"weather-item\">
+            <div class=\"icon\">💨</div>
+            <div class=\"value\">\(.wind_speed_10m) km/h</div>
+            <div class=\"label\">Wind Speed</div>
+        </div>
+        <div class=\"weather-item\">
+            <div class=\"icon\">💧</div>
+            <div class=\"value\">\(.relative_humidity_2m)%</div>
+            <div class=\"label\">Humidity</div>
+        </div>"' >> /data/index.html
+        
+        echo "<div class=\"update-time\">Last updated: $(date)</div></div></body></html>" >> /data/index.html
+        sleep 300
+      done
+    resources:
+      requests:
+        memory: "32Mi"
+        cpu: "100m"
+      limits:
+        memory: "64Mi"
+        cpu: "200m"
+  
+  volumes:
+  - name: shared-data
+    emptyDir: {}
+
+---
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: baku-weather-pdb
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: weather-demo
